@@ -7,19 +7,18 @@
     <meta name="description" content="Creation of an audio distorsion visualizer of webcam input" />
     <meta name="keywords" content="audio, visualizer, webcam, webgl, three.js" />
     <meta name="author" content="Pierre HOFMAN" />
-    <!-- <link rel="shortcut icon" href="../favicon.ico"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/index.css" />
   </head>
 
   <body>
     <main>
-      <div>
-        <video id="video"></video>
+      <div id="content">
+        <video id="video" autoplay></video>
+        <canvas id="canvas"></canvas>
       </div>
     </main>
+    <script src="src/index.js"></script>
   </body>
-
 </html>
