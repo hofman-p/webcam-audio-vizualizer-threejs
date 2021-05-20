@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Webcam Audio Visualizer with Three.js</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Creation of an audio distorsion visualizer of webcam input" />
-    <meta name="keywords" content="audio, visualizer, webcam, webgl, three.js" />
-    <meta name="author" content="Pierre HOFMAN" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="src/index.css" />
-  </head>
 
-  <body>
-    <main>
-      <div id="content">
-        <video id="video" autoplay></video>
-        <canvas id="canvas"></canvas>
-      </div>
-    </main>
-    <script src="src/index.js"></script>
-  </body>
+<head>
+  <title>Webcam Audio Visualizer with Three.js</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Creation of an audio distorsion visualizer of webcam input" />
+  <meta name="keywords" content="audio, visualizer, webcam, webgl, three.js" />
+  <meta name="author" content="Pierre HOFMAN" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="src/index.css" />
+</head>
+
+<body>
+  <main>
+    <div id="content">
+      <video id="video" class="hidden" autoplay></video>
+    </div>
+  </main>
+  <script src="src/index.js"></script>
+</body>
+
 </html>

@@ -4,7 +4,8 @@
   "description": "Fun project to play with camera stream, audio magnitude distorsion using Three.js library",
   "main": "index.js",
   "dependencies": {
-    "three": "^0.126.1"
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "three": "0.124.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
@@ -13,6 +14,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
     "build": "parcel build index.html"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
   },
   "browserslist": [
     "last 3 and_chr versions",
